@@ -1,16 +1,16 @@
 #ifndef ARCHIVO_H
 #define ARCHIVO_H
 
+#include "linkedList.h"
+#include <fstream>
+using namespace ::std;
 
-class Archivo
-{
-    public:
-        Archivo();
-        virtual ~Archivo();
+/*                            Declaracion
+---------------------------------------------------------------------*/
+void destruir_archivo(fstream & archivo);
 
-    protected:
+void guardar_datos(fstream & archivo, Lista lista);
 
-    private:
-};
+void recuperar_datos(fstream & archivo, Lista & lista, Paciente paciente);
 
 #endif // ARCHIVO_H
