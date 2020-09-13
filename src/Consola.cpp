@@ -1,4 +1,4 @@
-#include "Consola.h"
+#include "../include/Consola.h"
 
 /*                            Definicion
 ---------------------------------------------------------------------*/
